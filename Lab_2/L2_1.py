@@ -19,7 +19,7 @@ data_0 = list(range(100))
 data_1 = simple_obj(np.random.randint(100), np.random.randint(100))
 data_2 = np.random.randint(0, 100, size=(2, size))
 
-list_of_objects = [data_0, data_1, data_2, None]
+list_of_objects = [data_0, data_1, data_2]
 
 if rank == 0:
     data = list_of_objects
